@@ -1,0 +1,18 @@
+pasos
+
+1, desnormalizar la base de datos relacional
+2, realizar las validaciones,
+3, creacion de indices
+4, crear un set de pruebas que contenga(3p, 20s,4cr,5ct)
+5, crear agregaciones para:
+    a, listar los cursos programados entre dos fechas contenga(datos del curso, profesor asignado, aula, cant, Estudiantes)
+    b, mostara los datos del curso y su contenido tematico contenga(cod)
+    c, mostrar los estudiates por ciudad contenga(code, fn, ln, gn, age, mail)
+    d, mediante cod o id de estudiantes mos(cursos vistos, calificacion de cada curos, calificacion general(pormPond))
+    e, mediante cod o id del curso mos(estudiantes inscritos), contenga(code, fn, ln, calificacion general)
+    f, por curso proframado mos(5 mejores estudiantes) con sus respectivas notas
+
+6, Creacion de roles 3 req(Admin, profesor, estudiante)
+    a, Admin = dios
+    b, Profe = ver cursos y modificar calificaciones
+    c, estudiantes = ver

@@ -1,0 +1,7 @@
+use Actme-School-Proyect
+
+db.createCollection("StudentsDB")
+
+db.StudentsDB.insertMany([
+    
+])
