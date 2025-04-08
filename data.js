@@ -1,44 +1,3 @@
-[// type doc
-    {
-        code: "TC-2015",
-        name: "CC"
-    },
-    {
-        code: "TE-2015",
-        name: "CE"
-    },
-    {
-        code: "TP-2015",
-        name: "PS"
-    }
-]
-[ // ciudades
-    { // # 1
-        codeCity: "CT-1001",
-        country: "Bogota",
-        state: "Colombia"
-    },
-    { // # 2
-        codeCity: "CT-1002",
-        country: "Buenos Aires",
-        state: "Agentina"
-    },
-    { // # 3
-        codeCity: "CT-1001",
-        country: "Bucaramanga",
-        state: "Santander"
-    },
-    { // # 4
-        codeCity: "CT-1001",
-        country: "El cairo",
-        state: "Egipto"
-    },
-    { // # 5
-        codeCity: "CT-1001",
-        country: "Florencia",
-        state: "Caqueta"
-    }
-]
 [// cursos
     {// # 1
         code: "CR-2001",
@@ -65,7 +24,52 @@
             title: "",
             description: "",
             active: true
-        }
+        },
+        teachers: [
+            {
+                code: "PF-1001",
+                firstName: "Ector",
+                lastName: "Romero",
+                identification: {
+                    type: "CC",
+                    number: 456789
+                },
+                email: "E.Romero@mail.com",
+                date_Range: {
+                    starDate: "08/05/2025",
+                    endDate: "09/06/2025",
+                    courses
+                },
+            },
+            {
+                code: "PF-1002",
+                firstName: "Siomara",
+                lastName: "Fonceca",
+                identification: {
+                    type: "CC",
+                    number: 802596
+                },
+                email: "S.Fonceca@mail.com",
+                date_Range: {
+                    starDate: "20/07/2025",
+                    endDate: "20/08/2025"
+                },
+            },
+            {
+                code: "PF-1003",
+                firstName: "Vito",
+                lastName: "Scaletta",
+                identification: {
+                    type: "CC",
+                    number: 456789
+                },
+                email: "V.Scaletta@mail.com",
+                date_Range: {
+                    starDate: "30/08/2025",
+                    endDate: "30/09/2025"
+                },
+            }
+        ]
     },
     {// # 2
         code: "CR-2002",
@@ -92,7 +96,52 @@
             title: "",
             description: "",
             active: true
-        }
+        },
+        teachers: [
+            {
+                code: "PF-1001",
+                firstName: "Ector",
+                lastName: "Romero",
+                identification: {
+                    type: "CC",
+                    number: 456789
+                },
+                email: "E.Romero@mail.com",
+                date_Range: {
+                    starDate: "08/05/2025",
+                    endDate: "09/06/2025",
+                    courses
+                },
+            },
+            {
+                code: "PF-1002",
+                firstName: "Siomara",
+                lastName: "Fonceca",
+                identification: {
+                    type: "CC",
+                    number: 802596
+                },
+                email: "S.Fonceca@mail.com",
+                date_Range: {
+                    starDate: "20/07/2025",
+                    endDate: "20/08/2025"
+                },
+            },
+            {
+                code: "PF-1003",
+                firstName: "Vito",
+                lastName: "Scaletta",
+                identification: {
+                    type: "CC",
+                    number: 456789
+                },
+                email: "V.Scaletta@mail.com",
+                date_Range: {
+                    starDate: "30/08/2025",
+                    endDate: "30/09/2025"
+                },
+            }
+        ]
     },
     {// # 3
         code: "CR-2003",
@@ -119,7 +168,52 @@
             title: "",
             description: "",
             active: true
-        }
+        },
+        teachers: [
+            {
+                code: "PF-1001",
+                firstName: "Ector",
+                lastName: "Romero",
+                identification: {
+                    type: "CC",
+                    number: 456789
+                },
+                email: "E.Romero@mail.com",
+                date_Range: {
+                    starDate: "08/05/2025",
+                    endDate: "09/06/2025",
+                    courses
+                },
+            },
+            {
+                code: "PF-1002",
+                firstName: "Siomara",
+                lastName: "Fonceca",
+                identification: {
+                    type: "CC",
+                    number: 802596
+                },
+                email: "S.Fonceca@mail.com",
+                date_Range: {
+                    starDate: "20/07/2025",
+                    endDate: "20/08/2025"
+                },
+            },
+            {
+                code: "PF-1003",
+                firstName: "Vito",
+                lastName: "Scaletta",
+                identification: {
+                    type: "CC",
+                    number: 456789
+                },
+                email: "V.Scaletta@mail.com",
+                date_Range: {
+                    starDate: "30/08/2025",
+                    endDate: "30/09/2025"
+                },
+            }
+        ]
     },
     {// # 4
         code: "CR-2004",
@@ -146,7 +240,52 @@
             title: "",
             description: "",
             active: true
-        }
+        },
+        teachers: [
+            {
+                code: "PF-1001",
+                firstName: "Ector",
+                lastName: "Romero",
+                identification: {
+                    type: "CC",
+                    number: 456789
+                },
+                email: "E.Romero@mail.com",
+                date_Range: {
+                    starDate: "08/05/2025",
+                    endDate: "09/06/2025",
+                    courses
+                },
+            },
+            {
+                code: "PF-1002",
+                firstName: "Siomara",
+                lastName: "Fonceca",
+                identification: {
+                    type: "CC",
+                    number: 802596
+                },
+                email: "S.Fonceca@mail.com",
+                date_Range: {
+                    starDate: "20/07/2025",
+                    endDate: "20/08/2025"
+                },
+            },
+            {
+                code: "PF-1003",
+                firstName: "Vito",
+                lastName: "Scaletta",
+                identification: {
+                    type: "CC",
+                    number: 456789
+                },
+                email: "V.Scaletta@mail.com",
+                date_Range: {
+                    starDate: "30/08/2025",
+                    endDate: "30/09/2025"
+                },
+            }
+        ]
     },
     {// # 5
         code: "CR-2005",
@@ -173,7 +312,52 @@
             title: "",
             description: "",
             active: true
-        }
+        },
+        teachers: [
+            {
+                code: "PF-1001",
+                firstName: "Ector",
+                lastName: "Romero",
+                identification: {
+                    type: "CC",
+                    number: 456789
+                },
+                email: "E.Romero@mail.com",
+                date_Range: {
+                    starDate: "08/05/2025",
+                    endDate: "09/06/2025",
+                    courses
+                },
+            },
+            {
+                code: "PF-1002",
+                firstName: "Siomara",
+                lastName: "Fonceca",
+                identification: {
+                    type: "CC",
+                    number: 802596
+                },
+                email: "S.Fonceca@mail.com",
+                date_Range: {
+                    starDate: "20/07/2025",
+                    endDate: "20/08/2025"
+                },
+            },
+            {
+                code: "PF-1003",
+                firstName: "Vito",
+                lastName: "Scaletta",
+                identification: {
+                    type: "CC",
+                    number: 456789
+                },
+                email: "V.Scaletta@mail.com",
+                date_Range: {
+                    starDate: "30/08/2025",
+                    endDate: "30/09/2025"
+                },
+            }
+        ]
     }
 ]
 [ // student
@@ -214,7 +398,7 @@
         firstName: "Orlando",
         lastName: "Causa",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f5"), // CE
+            type: "CE", // CE
             number: 102030
         },
         gender: "M",
@@ -222,9 +406,23 @@
         contact: {
             email: "O.Causas@mail.com",
             address: "Cl 31 # 26-45",
-            city_id: ObjectId("67f518757d0de32c199654fb") // ARG
+            city: { // # 2
+                codeCity: "CT-1002",
+                country: "Buenos Aires",
+                state: "Agentina"
+            }, // ARG
         },
-        courses: ObjectId("67f530bc7d0de32c19965509"), // MG-DB
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965509"), // MG-DB
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+    ],
         active: true
     },
     {
@@ -232,7 +430,7 @@
         firstName: "Maria",
         lastName: "Molina",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f5"), // CE
+            type: "CE", // CE
             number: 256325
         },
         gender: "F",
@@ -240,9 +438,23 @@
         contact: {
             email: "M.Molina@mail.com",
             address: "Cr 45 # 25-15",
-            city_id: ObjectId("67f518757d0de32c199654fb") // ARG
+            city: { // # 2
+                codeCity: "CT-1002",
+                country: "Buenos Aires",
+                state: "Agentina"
+            }, // ARG
         },
-        courses: ObjectId("67f530bc7d0de32c19965509"), // MG-DB
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965509"), // MG-DB
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     {
@@ -250,7 +462,7 @@
         firstName: "Marcela",
         lastName: "Mendez",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f5"), // CE
+            type: "CE", // CE
             number: 158963
         },
         gender: "F",
@@ -258,9 +470,23 @@
         contact: {
             email: "M.Mendez@mail.com",
             address: "TR 23 # 24-35",
-            city_id: ObjectId("67f518757d0de32c199654fb") // ARG
+            city: { // # 2
+                codeCity: "CT-1002",
+                country: "Buenos Aires",
+                state: "Agentina"
+            }, // ARG
         },
-        courses: ObjectId("67f530bc7d0de32c19965509"), // MG-DB
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965509"), // MG-DB
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+    ],
         active: true
     },
     // Corte # 2 pn
@@ -269,7 +495,7 @@
         firstName: "Monica",
         lastName: "Pastas",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),// CC
+            type: "CC",// CC
             number: 148529
         },
         gender: "F",
@@ -277,9 +503,23 @@
         contact: {
             email: "M.Pastas@mail.com",
             address: "AV 32 # 24-35",
-            city_id: ObjectId("67f518757d0de32c199654fc")// Bmanga
+            city: { // # 3
+                codeCity: "CT-1001",
+                country: "Bucaramanga",
+                state: "Santander"
+            },// Bmanga
         },
-        courses: ObjectId("67f530bc7d0de32c19965505"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965505"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     {
@@ -287,7 +527,7 @@
         firstName: "Sara",
         lastName: "Sol",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),// CC
+            type: "CC",// CC
             number: 365247
         },
         gender: "F",
@@ -295,9 +535,23 @@
         contact: {
             email: "S.Sol@mail.com",
             address: "TR 02 # 35-24",
-            city_id: ObjectId("67f518757d0de32c199654fc")// Bmanga
+            city: { // # 3
+                codeCity: "CT-1001",
+                country: "Bucaramanga",
+                state: "Santander"
+            },// Bmanga
         },
-        courses: ObjectId("67f530bc7d0de32c19965505"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965505"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     {
@@ -305,7 +559,7 @@
         firstName: "Pedro",
         lastName: "Potacio",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),// CC
+            type: "CC",// CC
             number: 789523
         },
         gender: "M",
@@ -313,9 +567,23 @@
         contact: {
             email: "P.Potacio@mail.com",
             address: "TR 43 # 24-35",
-            city_id: ObjectId("67f518757d0de32c199654fc")// Bmanga
+            city: { // # 3
+                codeCity: "CT-1001",
+                country: "Bucaramanga",
+                state: "Santander"
+            },// Bmanga
         },
-        courses: ObjectId("67f530bc7d0de32c19965505"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965505"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     {
@@ -323,7 +591,7 @@
         firstName: "Natalia",
         lastName: "Nasaret",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),// CC
+            type: "CC",// CC
             number: 205896
         },
         gender: "m",
@@ -331,9 +599,23 @@
         contact: {
             email: "N.Nasaret@mail.com",
             address: "TR 23 # 24-35",
-            city_id: ObjectId("67f518757d0de32c199654fc")// Bmanga
+            city: { // # 3
+                codeCity: "CT-1001",
+                country: "Bucaramanga",
+                state: "Santander"
+            },// Bmanga
         },
-        courses: ObjectId("67f530bc7d0de32c19965505"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965505"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     // Corte # 3 pn
@@ -342,7 +624,7 @@
         firstName: "Natalia",
         lastName: "Mojica",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),// CC
+            type: "CC",// CC
             number: 205896
         },
         gender: "F",
@@ -350,9 +632,23 @@
         contact: {
             email: "N.Mojica@mail.com",
             address: "CL 23 # 24-35",
-            city_id: ObjectId("67f518757d0de32c199654fe")// Flotencia
+            city: { // # 5
+                codeCity: "CT-1001",
+                country: "Florencia",
+                state: "Caqueta"
+            }// Flotencia
         },
-        courses: ObjectId("67f530bc7d0de32c19965508"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965508"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     {
@@ -360,7 +656,7 @@
         firstName: "Esteban",
         lastName: "Briceño",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),// CC
+            type: "CC",// CC
             number: 128294
         },
         gender: "M",
@@ -368,9 +664,23 @@
         contact: {
             email: "E.Briceño@mail.com",
             address: "TR 23 # 24-35",
-            city_id: ObjectId("67f518757d0de32c199654fe")// Flotencia
+            city: { // # 5
+                codeCity: "CT-1001",
+                country: "Florencia",
+                state: "Caqueta"
+            }// Flotencia
         },
-        courses: ObjectId("67f530bc7d0de32c19965508"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965508"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     {
@@ -378,7 +688,7 @@
         firstName: "Santiago",
         lastName: "Acevedo",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),// CC
+            type: "CC",// CC
             number: 206598
         },
         gender: "M",
@@ -386,17 +696,31 @@
         contact: {
             email: "N.Nasaret@mail.com",
             address: "CR 23 # 20-35",
-            city_id: ObjectId("67f518757d0de32c199654fe")// Flotencia
+            city: { // # 5
+                codeCity: "CT-1001",
+                country: "Florencia",
+                state: "Caqueta"
+            }// Flotencia
         },
-        courses: ObjectId("67f530bc7d0de32c19965508"),
-        active: true
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965508"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+    ],
+    active: true
     },
     {
         code: "ES-012",
         firstName: "Ernesto",
         lastName: "Fonseca",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),// CC
+            type: "CC",// CC
             number: 301598
         },
         gender: "M",
@@ -404,9 +728,23 @@
         contact: {
             email: "N.Nasaret@mail.com",
             address: "Av 15 # 14-25",
-            city_id: ObjectId("67f518757d0de32c199654fe")// Flotencia
+            city: { // # 5
+                codeCity: "CT-1001",
+                country: "Florencia",
+                state: "Caqueta"
+            }// Flotencia
         },
-        courses: ObjectId("67f530bc7d0de32c19965508"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965508"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     // Corte # 4
@@ -415,7 +753,7 @@
         firstName: "Arcangel",
         lastName: "Lamaravilla",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),// CC
+            type: "CC",// CC
             number: 102596
         },
         gender: "M",
@@ -423,9 +761,23 @@
         contact: {
             email: "A.Lamaravilla@mail.com",
             address: "CR 35 # 14-25",
-            city_id: ObjectId("67f518757d0de32c199654fa")// BOG
+            city: { // # 1
+                codeCity: "CT-1001",
+                country: "Bogota",
+                state: "Colombia"
+            },// BOG
         },
-        courses: ObjectId("67f530bc7d0de32c19965506"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965506"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     {
@@ -433,7 +785,7 @@
         firstName: "Adolf",
         lastName: "Hittler",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),// CC
+            type: "CC",// CC
             number: 365287
         },
         gender: "M",
@@ -441,9 +793,23 @@
         contact: {
             email: "A.Hittler@mail.com",
             address: "Cr 75 # 35-26",
-            city_id: ObjectId("67f518757d0de32c199654fa")// BOG
+            city: { // # 1
+                codeCity: "CT-1001",
+                country: "Bogota",
+                state: "Colombia"
+            },// BOG
         },
-        courses: ObjectId("67f530bc7d0de32c19965506"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965506"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     {
@@ -451,7 +817,7 @@
         firstName: "Jophef",
         lastName: "Stalin",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),// CC
+            type: "CC",// CC
             number: 405896
         },
         gender: "M",
@@ -459,9 +825,23 @@
         contact: {
             email: "J.Stalin@mail.com",
             address: "Cr 45 # 30-25",
-            city_id: ObjectId("67f518757d0de32c199654fa")// BOG
+            city: { // # 1
+                codeCity: "CT-1001",
+                country: "Bogota",
+                state: "Colombia"
+            },// BOG
         },
-        courses: ObjectId("67f530bc7d0de32c19965506"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965506"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+    ],
         active: true
     },
     {
@@ -469,7 +849,7 @@
         firstName: "Jeffry",
         lastName: "Dammer",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),// CC
+            type: "CC",// CC
             number: 608523
         },
         gender: "M",
@@ -477,9 +857,23 @@
         contact: {
             email: "J.Dammer@mail.com",
             address: "Av 15 # 14-25",
-            city_id: ObjectId("67f518757d0de32c199654fa")// BOG
+            city: { // # 1
+                codeCity: "CT-1001",
+                country: "Bogota",
+                state: "Colombia"
+            },// BOG
         },
-        courses: ObjectId("67f530bc7d0de32c19965506"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965506"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     // Corte #  5
@@ -488,7 +882,7 @@
         firstName: "Juaquin",
         lastName: "Phenix",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f6"),// PS
+            type: "PS",// PS
             number: 508963
         },
         gender: "M",
@@ -496,9 +890,23 @@
         contact: {
             email: "J.Phenix@mail.com",
             address: "CR 15 # 14-25",
-            city_id: ObjectId("67f518757d0de32c199654fd")// Cairo
+            city: { // # 4
+                codeCity: "CT-1001",
+                country: "El cairo",
+                state: "Egipto"
+            },// Cairo
         },
-        courses: ObjectId("67f530bc7d0de32c19965507"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965507"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     {
@@ -506,7 +914,7 @@
         firstName: "Bladimir",
         lastName: "Lennin",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f6"),// PS
+            type: "PS",// PS
             number: 805226
         },
         gender: "M",
@@ -514,9 +922,23 @@
         contact: {
             email: "B.Lennin@mail.com",
             address: "TR 65 # 24-15",
-            city_id: ObjectId("67f518757d0de32c199654fd")// Cairo
+            city: { // # 4
+                codeCity: "CT-1001",
+                country: "El cairo",
+                state: "Egipto"
+            },// Cairo
         },
-        courses: ObjectId("67f530bc7d0de32c19965507"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965507"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     {
@@ -524,7 +946,7 @@
         firstName: "Jonh",
         lastName: "Stephen",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f6"),// PS
+            type: "PS",// PS
             number: 608523
         },
         gender: "M",
@@ -532,9 +954,23 @@
         contact: {
             email: "J.Stephen@mail.com",
             address: "Cl 85 # 35-25",
-            city_id: ObjectId("67f518757d0de32c199654fd")// Cairo
+            city: { // # 4
+                codeCity: "CT-1001",
+                country: "El cairo",
+                state: "Egipto"
+            },// Cairo
         },
-        courses: ObjectId("67f530bc7d0de32c19965507"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965507"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     },
     {
@@ -542,7 +978,7 @@
         firstName: "Jeffry",
         lastName: "Joking",
         identification: {
-            type_id: ObjectId("67f517577d0de32c199654f6"),// PS
+            type: "PS",// PS
             number: 608523
         },
         gender: "M",
@@ -550,71 +986,99 @@
         contact: {
             email: "J.Joking@mail.com",
             address: "TR 05 # 36-25",
-            city_id: ObjectId("67f518757d0de32c199654fd")// Cairo
+            city: { // # 4
+                codeCity: "CT-1001",
+                country: "El cairo",
+                state: "Egipto"
+            },// Cairo
         },
-        courses: ObjectId("67f530bc7d0de32c19965507"),
+        inscription: [{
+            courses: ObjectId("67f530bc7d0de32c19965507"),
+            registration: {
+                dateNow: Date.now
+            },
+            rates: {
+                rates: "",
+                comments: ""
+            }
+        }
+        ],
         active: true
     }
 ]
-[ // profe
-    {
-        code: "PF-1001",
-        firstName: "Ector",
-        lastName: "Romero",
-        identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),
-            number: 456789
-        },
-        email: "E.Romero@mail.com",
-        date_Range: {   
-            starDate: "08/05/2025",
-            endDate: "09/06/2025",
-            courses
-        },
-    },
-    {
-        code: "PF-1002",
-        firstName: "Siomara",
-        lastName: "Fonceca",
-        identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),
-            number: 802596
-        },
-        email: "S.Fonceca@mail.com",
-        date_Range: {
-            starDate: "20/07/2025",     
-            endDate: "20/08/2025"
-        },
-    },
-    {
-        code: "PF-1003",
-        firstName: "Vito",
-        lastName: "Scaletta",
-        identification: {
-            type_id: ObjectId("67f517577d0de32c199654f4"),
-            number: 456789
-        },
-        email: "V.Scaletta@mail.com",
-        date_Range: {
-            starDate: "30/08/2025",
-            endDate: "30/09/2025"
-        },
-    }
-]
-[// inscripciones
-    {
-        schedule_id: ObjectId(""),
-        student_id: ObjectId(""),
-        registration: {
-            dateNow: Date.now
-        },
-        rates: {
-            º: "",
-            comments: ""
-        },
-        active: true
-    }
-]
+// [// type doc
+//     {
+//         code: "TC-2015",
+//         name: "CC"
+//     },
+//     {
+//         code: "TE-2015",
+//         name: "CE"
+//     },
+//     {
+//         code: "TP-2015",
+//         name: "PS"
+//     }
+// ]
+// [ // profe
+//     {
+//         code: "PF-1001",
+//         firstName: "Ector",
+//         lastName: "Romero",
+//         identification: {
+//             type_id: ObjectId("67f517577d0de32c199654f4"),
+//             number: 456789
+//         },
+//         email: "E.Romero@mail.com",
+//         date_Range: {
+//             starDate: "08/05/2025",
+//             endDate: "09/06/2025",
+//             courses
+//         },
+//     },
+//     {
+//         code: "PF-1002",
+//         firstName: "Siomara",
+//         lastName: "Fonceca",
+//         identification: {
+//             type_id: ObjectId("67f517577d0de32c199654f4"),
+//             number: 802596
+//         },
+//         email: "S.Fonceca@mail.com",
+//         date_Range: {
+    //             starDate: "20/07/2025",
+//             endDate: "20/08/2025"
+//         },
+//     },
+//     {
+    //         code: "PF-1003",
+//         firstName: "Vito",
+//         lastName: "Scaletta",
+//         identification: {
+    //             type_id: ObjectId("67f517577d0de32c199654f4"),
+//             number: 456789
+//         },
+//         email: "V.Scaletta@mail.com",
+//         date_Range: {
+    //             starDate: "30/08/2025",
+//             endDate: "30/09/2025"
+//         },
+//     }
+// ]
+// [// inscripciones
+//     {
+//         schedule_id: ObjectId(""),
+//         student_id: ObjectId(""),
+//         registration: {
+//             dateNow: Date.now
+//         },
+//         rates: {
+//             º: "",
+//             comments: ""
+//         },
+//         active: true
+//     }
+// ]
 // [// Salones de clase
 //     { // # 1
 //         code:"SC-4001",
@@ -661,17 +1125,39 @@
 //         active: true
 //     },
 //     {
-//         courses_id: ObjectId,
+    //         courses_id: ObjectId,
 //         code: "TM-5001",
 //         title: "",
 //         description: "",
 //         active: true
 //     },
 //     {
-//         courses_id: ObjectId,
-//         code: "TM-5001",
+    //         courses_id: ObjectId,
+    //         code: "TM-5001",
 //         title: "",
 //         description: "",
 //         active: true
 //     }
 // ]
+    // [ // ciudades
+    //     { // # 1
+    //         codeCity: "CT-1001",
+    //         country: "Bogota",
+    //         state: "Colombia"
+    //     },
+    //     { // # 3
+    //         codeCity: "CT-1001",
+    //         country: "Bucaramanga",
+    //         state: "Santander"
+    //     },
+    //     { // # 4
+    //         codeCity: "CT-1001",
+    //         country: "El cairo",
+    //         state: "Egipto"
+    //     },
+    //     { // # 5
+    //         codeCity: "CT-1001",
+    //         country: "Florencia",
+    //         state: "Caqueta"
+    //     }
+    // ]
