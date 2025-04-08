@@ -27,11 +27,10 @@ use Actme-School-Proyect
 //|______________________________________________________________________________________________________________|
 function createCollectionSchool(){
     ["identification_typesDB", "StudentsDB", "TeachersDB", "CitiesDB", 
-   "CoursesDB", "ClassroomsDB", "TopicsDB", "course_schedulesDB", 
-   "inscriptionsDB"].forEach(col =>{
+   "CoursesDB"].forEach(col =>{
     try{
         db.createCollection(col);
-        print(`Coleccion ${col}creada`);
+        print(`Coleccion ${col} creada`);
     }catch(e){
         print(`Error con ${col}:${e.message}`);
     }
@@ -41,12 +40,9 @@ function createCollectionSchool(){
 //________________________________________________________________________________________________________________
 
 
-db.identification_typesDB.insertMany([])
-db.StudentsDB.insertMany([])
-db.TeachersDB.insertMany([])
-db.CitiesDB.insertMany([])
-db.CoursesDB.insertMany([])
-db.ClassroomsDB.insertMany([])
-db.TopicsDB.insertMany([])
-db.course_schedulesDB.insertMany([])
-db.inscriptionsDB.insertMany([])
+db.identification_typesDB.insertMany()
+db.CitiesDB.insertMany()
+db.CoursesDB.insertMany()
+db.StudentsDB.insertMany()
+db.TeachersDB.insertMany()
+db.inscriptionsDB.insertMany()

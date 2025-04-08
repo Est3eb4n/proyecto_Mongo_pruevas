@@ -3,7 +3,7 @@ pasos
 1, desnormalizar la base de datos relacional
 2, realizar las validaciones,
 3, creacion de indices
-4, crear un set de pruebas que contenga(3profes, 20student,4cursos,5cyties)
+4, crear un set de pruebas que contenga(3profes, 20student,4cursos,5cities)
 5, crear agregaciones para:
     a, listar los cursos programados entre dos fechas contenga(datos del curso, profesor asignado, aula, cant, Estudiantes)
     b, mostara los datos del curso y su contenido tematico contenga(cod)
