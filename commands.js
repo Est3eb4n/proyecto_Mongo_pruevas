@@ -27,10 +27,22 @@ db.createCollection("inscriptionsDB")
 //| error al montrando la coleccion donde se produjo el error                                                    |
 //|______________________________________________________________________________________________________________|
 function createCollectionSchool(){
-    ["StudentsDB", "TeachersDB", "CitiesDB", "CoursesDB", 
-    "TopicsDB", "inscriptionsDB"].forEach(col =>{
+    [{name:"StudentsDB",validation: {
+      validator: {
+        $jsonSchema: {
+          bsonType: "object",
+          required: ["codeCity", "country", "state"],
+          properties: {
+            codeCity: { bsonType: "string" },
+            country: { bsonType: "string" },
+            state: { bsonType: "string" }
+          }
+        }
+      }
+    }, "TeachersDB", "CitiesDB", "CoursesDB", 
+    "TopicsDB", "inscriptionsDB"].forEach(({name,validation}) =>{
     try{
-        db.createCollection(col);
+        db.createCollection(name,validation);
         print(`Coleccion ${col}creada`);
     }catch(e){
         print(`Error con ${col}:${e.message}`);
